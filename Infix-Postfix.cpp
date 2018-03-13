@@ -25,11 +25,6 @@ public:
 			top--;
 		}
 	}
-	void hapus(){
-		if (!isempty()){
-			top--;
-		}
-	}
 	bool isempty(){
 		if (top == -1)
 			return true;
